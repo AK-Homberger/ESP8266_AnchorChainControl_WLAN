@@ -1,8 +1,8 @@
 # Anchor Chain Contol with WLAN
 
-This is a port from the ESP32 repository to a Wemos D1 Mini which is amaller than the ESP 32 Node MCU.
+This is a port from the ESP32 repository to a Wemos D1 Mini which is amaller than the ESP32 Node MCU.
 
-This repository shows how to remotely control the achor chain relay via WLAN from phone/tablet.
+This repository shows how to remotely control the anchor chain relay via WLAN from phone/tablet.
 Anchor chain events from the chain sensor are measured and presented on the phone/tablet.
 
 Just set the WLAN ssid and password according to your needs. 

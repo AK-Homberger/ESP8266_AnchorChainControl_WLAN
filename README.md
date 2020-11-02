@@ -1,8 +1,6 @@
-# ESP8266_AnchorChainContol_WLAN
-Remote control for anchor chain that shows current chain lenght via WLAN to phone/tablet (with Wemos D1 Mini).
+# Anchor Chain Contol with WLAN
 
-
-# ESP32 Anchor Chain Remote Contol / Counter via WLAN
+This is a port from the ESP32 repository to a Wemos D1 Mini which is amaller than the ESP 32 Node MCU.
 
 This repository shows how to remotely control the achor chain relay via WLAN from phone/tablet.
 Anchor chain events from the chain sensor are measured and presented on the phone/tablet.
@@ -38,7 +36,7 @@ The current design should work for a Quick or Lofrans anchor chain relay and cha
 The resistors R4, R5 and the transistors Q3, Q4 are currently not necessary. They shall support a manual override detection in the futere (currently not yet imlemented in the code).
 # Partlist:
 
-- ESP32 [Link](https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B071P98VTG/ref=sxts_sxwds-bia-wc-drs3_0?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&cv_ct_cx=ESP32&dchild=1&keywords=ESP32) 
+- D1 Mini [Link]()
 - D24V10F5 [Link](https://eckstein-shop.de/Pololu-5V-1A-Step-Down-Spannungsregler-D24V10F5)
 - Resistor 1 KOhm [Link](https://www.reichelt.de/de/en/carbon-film-resistor-1-4-w-5-1-0-kilo-ohms-1-4w-1-0k-p1315.html?&trstct=pos_2&nbc=1) Other resistors are the same type! Click on "5% Carbon film resistors" then two times "+ more filter" to select values.
 - Diode 1N4148 [Link](https://www.reichelt.de/schalt-diode-100-v-150-ma-do-35-1n-4148-p1730.html?search=1n4148)

@@ -1,4 +1,4 @@
-# Anchor Chain Contol with WLAN
+# Anchor Chain Control with WLAN
 
 This is a port from the ESP32 repository to a ESP8266 D1 Mini which is smaller than the ESP32 Node MCU.
 

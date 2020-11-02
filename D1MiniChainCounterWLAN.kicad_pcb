@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 15)
     (tracks 183)
     (zones 0)
     (modules 20)
@@ -1120,6 +1120,9 @@
     )
   )
 
+  (gr_text "Chain Counter\nWLAN\nRev 1.0" (at 107.315 59.055) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 96.52 95.25) (end 96.52 81.28) (layer F.SilkS) (width 0.15) (tstamp 5F9FD6E2))
   (gr_line (start 114.3 95.25) (end 96.52 95.25) (layer F.SilkS) (width 0.15))
   (gr_line (start 114.3 81.28) (end 114.3 95.25) (layer F.SilkS) (width 0.15))

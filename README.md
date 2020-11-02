@@ -32,7 +32,8 @@ Features:
 ![Picture2](https://github.com/AK-Homberger/ESP8266_AnchorChainContol_WLAN/blob/main/SchematicsD1MiniChainCounterWLAN.png)
 
 A pcb is available in the main folder: D1MiniChainCounterWLAN.kicad_pcb.
-Jou can order a PCB from Aisler.net: https://aisler.net/p/WJSHXVDM
+
+You can order a PCB from Aisler.net: https://aisler.net/p/WJSHXVDM
 
 ![Board](https://github.com/AK-Homberger/ESP8266_AnchorChainContol_WLAN/blob/main/D1MiniChainCounterWLAN.png)
 

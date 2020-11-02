@@ -43,6 +43,7 @@ The resistors R4, R5 and the transistors Q3, Q4 are currently not necessary. The
 
 ## Parts:
 
+- Board [Link](https://aisler.net/p/WJSHXVDM)
 - D1 Mini [Link](https://www.reichelt.de/de/en/d1-mini-esp8266-v3-0-d1-mini-p253978.html?&nbc=1)
 - D24V10F5 [Link](https://eckstein-shop.de/Pololu-5V-1A-Step-Down-Spannungsregler-D24V10F5)
 - Resistor 1 KOhm [Link](https://www.reichelt.de/de/en/carbon-film-resistor-1-4-w-5-1-0-kilo-ohms-1-4w-1-0k-p1315.html?&trstct=pos_2&nbc=1)

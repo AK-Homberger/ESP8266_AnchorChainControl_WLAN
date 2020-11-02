@@ -1,6 +1,6 @@
 # Anchor Chain Contol with WLAN
 
-This is a port from the ESP32 repository to a ESP8266 D1 Mini which is amaller than the ESP32 Node MCU.
+This is a port from the ESP32 repository to a ESP8266 D1 Mini which is smaller than the ESP32 Node MCU.
 
 This repository shows how to remotely control the anchor chain relay via WLAN from phone/tablet.
 Anchor chain events from the chain sensor are measured and presented on the phone/tablet.

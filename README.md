@@ -26,8 +26,8 @@ Features:
 - Safety stop if maximum chain lenght is reached (standard 40 meters, can be changed with MAX_CHAIN_LENGTH)
 - Watchdog timer to stop power after 1 second inactivity of client (e.g. due to connection problems).
 - Watchdog timer to detect blocking chain. Engine stops if no events are detected within 1 second for up/down command.
-- Current Chain Counter is stored in nonvolatile memory. ESP32 can be switched off after anchoring (counter is restored after new start).
-- Demo mode to check functionality without having a windlass / chain counter connected to ESP32 (set ENABLE_DEMO to 1).
+- Current Chain Counter is stored in nonvolatile memory. ESP can be switched off after anchoring (counter is restored after new start).
+- Demo mode to check functionality without having a windlass / chain counter connected to ESP (set ENABLE_DEMO to 1).
 
 ![Picture2](https://github.com/AK-Homberger/ESP8266_AnchorChainContol_WLAN/blob/main/SchematicsD1MiniChainCounterWLAN.png)
 

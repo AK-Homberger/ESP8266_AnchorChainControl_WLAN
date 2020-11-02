@@ -38,7 +38,8 @@ A pcb is available in the main folder: D1MiniChainCounterWLAN.kicad_pcb.
 
 The current design should work for a Quick or Lofrans anchor chain relay and chain sensor (which looks like a simple reed relay triggerd from a magnet). Connection details  for a Quick windlass/counter can be found here: https://www.quickitaly.com/resources/downloads_qne-prod/1/CHC1203_IT-EN-FR_REV001A.pdf
 
-The resistors R4, R5 and the transistors Q3, Q4 are currently not necessary. They shall support a manual override detection in the futere (currently not yet imlemented in the code).
+The resistors R4, R5 and the transistors Q3, Q4 are currently not necessary. They shall support a manual override detection in the future (currently not yet imlemented in the code).
+
 # Partlist:
 
 - D1 Mini [Link](https://www.reichelt.de/de/en/d1-mini-esp8266-v3-0-d1-mini-p253978.html?&nbc=1)

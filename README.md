@@ -1,6 +1,6 @@
 # Anchor Chain Contol with WLAN
 
-This is a port from the ESP32 repository to a Wemos D1 Mini which is amaller than the ESP32 Node MCU.
+This is a port from the ESP32 repository to a ESP8266 D1 Mini which is amaller than the ESP32 Node MCU.
 
 This repository shows how to remotely control the anchor chain relay via WLAN from phone/tablet.
 Anchor chain events from the chain sensor are measured and presented on the phone/tablet.
@@ -42,7 +42,7 @@ The current design should work for a Quick or Lofrans anchor chain relay and cha
 
 The resistors R4, R5 and the transistors Q3, Q4 are currently not necessary. They shall support a manual override detection in the future (currently not yet imlemented in the code).
 
-# Partlist:
+# Parts:
 
 - D1 Mini [Link](https://www.reichelt.de/de/en/d1-mini-esp8266-v3-0-d1-mini-p253978.html?&nbc=1)
 - D24V10F5 [Link](https://eckstein-shop.de/Pololu-5V-1A-Step-Down-Spannungsregler-D24V10F5)

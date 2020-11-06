@@ -60,4 +60,5 @@ The resistors R4, R5 and the transistors Q3, Q4 are currently not necessary. The
 ## Updates:
 
 06.11.2020 - Changed PCB layout to version 1.1. Larger terminal blocks (5.08 mm) and different transistor footprints for easy soldering.
+
 02.11.2020 - Version 1.0: Initial version with ESP8266 D1 Mini.

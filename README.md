@@ -54,9 +54,10 @@ The resistors R4, R5 and the transistors Q3, Q4 are currently not necessary. The
 - Diode 1N4001 [Link](https://www.reichelt.de/de/en/rectifier-diode-do41-50-v-1-a-1n-4001-p1723.html?&nbc=1)
 - H11-L1 [Link](https://www.reichelt.de/optokoppler-1-mbit-s-dil-6-h11l1m-p219351.html?search=H11-l1)
 - Relay (*2) [Link](https://www.reichelt.de/de/en/miniature-power-relay-g5q-1-no-5-v-dc-5-a-g5q-1a-eu-5dc-p258331.html?&nbc=1)
-- Connector 2-pin (*3) [Link](https://www.reichelt.de/de/en/2-pin-terminal-strip-spacing-3-5-akl-059-02-p36598.html?&nbc=1)
+- Connector 2-pin (*3) [Link](https://www.reichelt.de/de/en/2-pin-terminal-strip-spacing-5-08-akl-101-02-p36605.html?&nbc=1)
 
 
 ## Updates:
 
+06.11.2020 - Changed PCB layout to version 1.1. Larger terminal blocks (5.08 mm) and different transistor footprints for easy soldering.
 02.11.2020 - Version 1.0: Initial version with ESP8266 D1 Mini.

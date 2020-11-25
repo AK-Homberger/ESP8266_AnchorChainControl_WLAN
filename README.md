@@ -39,7 +39,10 @@ You can order a PCB from Aisler.net: https://aisler.net/p/WJSHXVDM
 
 The current design should work for a Quick or Lofrans anchor chain relay and chain sensor (which looks like a simple reed relay triggerd from a magnet). Connection details  for a Quick windlass/counter can be found here: https://www.quickitaly.com/resources/downloads_qne-prod/1/CHC1203_IT-EN-FR_REV001A.pdf
 
-The resistors R4, R5 and the transistors Q3, Q4 are currently not necessary. They shall support a manual override detection in the future (currently not yet imlemented in the code).
+# Caution/Error!!!
+Unfortunately there is an error in the schematics and the board. D3/D4 should not be use as input. But ther are also good news: The resistors R4, R5 and the transistors Q3, Q4 are currently not necessary. They shall support a manual override detection in the future (currently not yet imlemented in the code).
+To avoid problems (with flasihing) do not install R3,R4 and Q3/Q4 on the PCB at the moment. I will update schematics, code and PCB to use D6/D7 instead.
+
 
 ## Parts:
 

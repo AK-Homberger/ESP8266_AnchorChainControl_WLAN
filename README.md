@@ -47,7 +47,12 @@ D1/D2: Output, Ralais Up/Down
 D6/D7: Input, Manual override detection Up/Down
 D5: Input, Chain sensor 
 
+With these IO pins the boot problem with the relais shold be solved. Details see here: https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
+The former version used D4/D5 as relais output istead of safe GPIO4/GPIO5. D5,D6,D7 are safe for input.
+
 The manual override detection function with D6/D7 is currently missing in the code. Feel free to support/update.
+
+If you have problems with the chanin counter input measuring multiple count signals, it might be necessary to use a library to avoid multiple counts e.g.: https://github.com/mathertel/OneButton
 
 ## Parts:
 

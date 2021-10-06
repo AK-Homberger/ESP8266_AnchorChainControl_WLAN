@@ -13,7 +13,7 @@
 */
 
 // Anchor Chain Remote Control / Chain Counter with WLAN.
-// Version 1.1, 02.11.2020, AK-Homberger
+// Version 1.2, 06.10.2021, AK-Homberger
 
 #include<ESP8266WiFi.h>
 #include<ESP8266WebServer.h>
@@ -37,7 +37,7 @@ ESP8266WebServer server(80);                // Web Server at port 80
 // Chain Counter
 
 #define Chain_Calibration_Value 0.33 // Translates counter impuls to meter 0,33 m per pulse
-#define Chain_Counter_Pin D1         // Counter impulse is measured as interrupt on pin D1
+#define Chain_Counter_Pin D5         // Counter impulse is measured as interrupt on pin D5
 unsigned long Last_int_time = 0;     // Time of last interrupt
 unsigned long Last_event_time = 0;   // Time of last event for engine watchdog
 int ChainCounter = 0;                // Counter for chain events
@@ -45,8 +45,8 @@ int LastSavedCounter = 0;            // Stores last ChainCounter value to allow 
 
 // Relay
 
-#define Chain_Up_Pin D4              // GPIO pin 14 for Chain Up Relay
-#define Chain_Down_Pin D5            // GPIO pin 14 for Chain Down Relay
+#define Chain_Up_Pin D1              // GPIO pin D1 for Chain Up Relay
+#define Chain_Down_Pin D2            // GPIO pin D2 for Chain Down Relay
 int UpDown = 1;                      // 1 =  Chain down / count up, -1 = Chain up / count backwards
 int OnOff = 0;                       // Relay On/Off - Off = 0, On = 1
 unsigned long Watchdog_Timer = 0;    // Watchdog timer to stop relay after 1 second of inactivity e.g. connection loss to client

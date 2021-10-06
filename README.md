@@ -67,6 +67,6 @@ The manual override detection function with D6/D7 is currently missing in the co
 
 ## Updates:
 
+06.10.2021 - Version 1.2: Changed IO pins to avoid problem during boot and preparation for correct manual override detection.
 06.11.2020 - Changed PCB layout to version 1.1. Larger terminal blocks (5.08 mm) and different transistor footprints for easy soldering.
-
 02.11.2020 - Version 1.0: Initial version with ESP8266 D1 Mini.

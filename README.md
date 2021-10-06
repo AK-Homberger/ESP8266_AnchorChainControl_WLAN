@@ -54,6 +54,8 @@ The manual override detection function with D6/D7 is currently missing in the co
 
 If you have problems with the chanin counter input measuring multiple count signals, it might be necessary to use a library to avoid multiple counts e.g.: https://github.com/mathertel/OneButton
 
+You can easily do your own changes now: I added the full KiCAD details: https://github.com/AK-Homberger/ESP8266_AnchorChainControl_WLAN/tree/main/D1MiniChainCounterWLAN
+
 ## Parts:
 
 - Board [Link](https://aisler.net/p/WJSHXVDM)

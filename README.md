@@ -33,7 +33,7 @@ Features:
 
 ![Picture2](https://github.com/AK-Homberger/ESP8266_AnchorChainContol_WLAN/blob/main/SchematicsD1MiniChainCounterWLAN.png)
 
-A [pcb layout](https://github.com/AK-Homberger/ESP8266_AnchorChainContol_WLAN/blob/main/D1MiniChainCounterWLAN-Board.pdf) is available in the main folder: "D1MiniChainCounterWLAN.kicad_pcb".
+A [pcb layout](https://github.com/AK-Homberger/ESP8266_AnchorChainContol_WLAN/blob/main/D1MiniChainCounterWLAN-Board.pdf) is available in the [KiCAD](https://github.com/AK-Homberger/ESP8266_AnchorChainControl_WLAN/tree/main/D1MiniChainCounterWLAN) folder: "D1MiniChainCounterWLAN.kicad_pcb".
 
 You can order a PCB from Aisler.net: https://aisler.net/p/WJSHXVDM
 

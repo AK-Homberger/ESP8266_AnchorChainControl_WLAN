@@ -2,7 +2,7 @@
 
 This is a port from the ESP32 repository to a ESP8266 D1 Mini which is smaller than the ESP32 Node MCU.
 
-## Caution: This is updated version 1.2 with changed I/O pin definitions! The PCB is also updated but untested.
+## Caution: This is the updated version 1.2 with changed I/O pin definitions! The PCB is also updated but untested.
 
 This repository shows how to remotely control the anchor chain relay via WLAN from phone/tablet.
 Anchor chain events from the chain sensor are measured and presented on the phone/tablet.

@@ -47,7 +47,7 @@ Used I/O pins:
 - D6/D7: Input, manual override detection Up/Down (option)
 - D5: Input, chain sensor 
 
-With these IO pins the boot problem with the relais shold be solved. Details see here: https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
+With these IO pins the boot problem with the relais should be solved. Details see here: https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
 The former version used D4/D5 as relais output istead of safe GPIO4(D1) and GPIO5(D2). D5,D6,D7 are safe for input.
 
 The manual override detection function with D6/D7 is currently missing in the code. Feel free to support/update.
